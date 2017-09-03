@@ -114,9 +114,9 @@ header{text-align: center;background: #fff;}
 
 /* ---content-box--- */
 .content-box {}
-.content-box .wrap-box {padding: 40px 10px; position: relative;}
+.content-box .wrap-box {padding: 1px 0px; position: relative;}
 .content-box .box-header { margin: 0 0 30px;text-align: center;}
-.content-box .box-header h2{font-size: 28px;display: block;text-transform: uppercase;font-weight: 700;}
+.content-box .box-header h2{font-size: 28px;display: block;text-transform: uppercase;font-weight: 700;  padding-top: 30px;}
 .content-box .box-content{}
 
 .content-box.box-style-1{background: #fff;}
@@ -187,7 +187,7 @@ article .entry-content ol {float: left;text-align: justify;margin: 10px 50px;fon
 /* -------------------------------------Footer--------------------------------- */
 /* ---------------------------------------------------------------------------- */
 footer{background: #fff;font-size: 12px;color: #999}
-footer a{color:#fff;font-weight: 400;text-shadow: none;}
+footer a{color:#000;font-weight: 400;text-shadow: none;}
 footer a:hover{color:#bcbcbc;}
 
 footer .wrap-footer{padding: 40px 0;}
@@ -207,7 +207,7 @@ footer .col-footer-3 a:hover{color: #fff;background: #000;}
 
 footer .col-footer-4 img{margin-bottom: 20px;}
 
-footer .bottom-footer{color: #cccccc;text-align: center;padding: 10px 0;border-top: 1px solid #fff; background-color: #000;}
+footer .bottom-footer{color: #000;text-align: center;padding: 10px 0;border-top: 1px solid #fff; background-color: #fff;}
 footer .bottom-footer ul li {margin-bottom: 5px;border-bottom: 1px solid #555;padding: 10px 0 15px;}
 footer i.fa{font-size: 22px;margin-right: 8px;}
 footer .bottom-social{margin-bottom: 20px;}
@@ -237,7 +237,7 @@ a.button:hover{background-color: #333;}
 .owl-carousel:hover .owl-buttons div {color:#fff;}
 .owl-controls .owl-buttons .owl-prev {left: 10px;top: 50%;}
 .owl-controls .owl-buttons .owl-next {right: 10px;top: 50%;}
-.owl-carousel{margin-bottom: 20px;}
+
 .owl-carousel .owl-buttons div i {font-size: 40px;margin: -20px 0 0;}
 .owl-carousel .item{position: relative;}
 
