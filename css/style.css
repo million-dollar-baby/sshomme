@@ -119,7 +119,7 @@ header{text-align: center;background: #fff;}
 .content-box {}
 .content-box .wrap-box {padding: 1px 0px; position: relative;}
 .content-box .box-header { margin: 0 0 30px;text-align: center;}
-.content-box .box-header h2{font-size: 28px;display: block;text-transform: uppercase;font-weight: 700;  padding-top: 30px;}
+.content-box .box-header h2{font-size: 28px;display: block;text-transform: uppercase;font-weight: 700;  padding-top: 60px;}
 .content-box .box-content{}
 
 .content-box.box-style-1{background: #fff;}
