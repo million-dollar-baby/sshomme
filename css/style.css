@@ -6,9 +6,18 @@ Author URI: https://www.zerotheme.com/
 @import url(https://fonts.googleapis.com/css?family=Cabin);
 @import url(https://fonts.googleapis.com/css?family=Crimson+Text);
 /* ---------------------------------------------------------------------------- */
+
+@font-face {
+
+ font-family: 'Futura';
+
+ src: local('Futura'), url('Futura light bt.ttf') format('truetype');
+ /* for other web browsers */
+
+}
 /* ------------------------------------Reset----------------------------------- */
 /* ---------------------------------------------------------------------------- */
-a,abbr,acronym,address,applet,article,aside,audio,b,blockquote,big,body,center,canvas,caption,cite,code,command,datalist,dd,del,details,dfn,dl,div,dt,em,embed,fieldset,figcaption,figure,font,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,keygen,label,legend,li,meter,nav,object,ol,output,p,pre,progress,q,s,samp,section,small,span,source,strike,strong,sub,sup,table,tbody,tfoot,thead,th,tr,tdvideo,tt,u,ul,var{;border:0 none;font-size:100%;margin:0;padding:0;border:0;outline:0;vertical-align:top;}ol, ul {list-style:none;}blockquote, q {quotes:none;}table, table td {padding:0;border:none;border-collapse:collapse;}img {vertical-align:top;}embed {vertical-align:top;}
+a,abbr,acronym,address,applet,article,aside,audio,b,blockquote,big,body,center,canvas,caption,cite,code,command,datalist,dd,del,details,dfn,dl,div,dt,em,embed,fieldset,figcaption,figure, ,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,keygen,label,legend,li,meter,nav,object,ol,output,p,pre,progress,q,s,samp,section,small,span,source,strike,strong,sub,sup,table,tbody,tfoot,thead,th,tr,tdvideo,tt,u,ul,var{;border:0 none;font-size:100%;margin:0;padding:0;border:0;outline:0;vertical-align:top;}ol, ul {list-style:none;}blockquote, q {quotes:none;}table, table td {padding:0;border:none;border-collapse:collapse;}img {vertical-align:top;}embed {vertical-align:top;}
 article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {display:block;}
 mark, rp, rt, ruby, summary, time {display:inline;}
 input, textarea {border:0; padding:0; margin:0; outline: 0;}
@@ -162,7 +171,7 @@ article:after, article:before{clear: both; content: '\0020'; display: block; vis
 article .post-thumbnail-wrap {text-align: center;width: 100%;margin-bottom: 10px;}
 article .post-thumbnail-wrap img {}
 article h3.entry-title{font-size: 20px;margin: 10px 0 5px;font-weight: 500;letter-spacing: 1px;color: #222;}
-article .l-tags{text-align: center;font-size: 12px; font-family: 'Crimson Text', serif;text-transform: uppercase;letter-spacing: .9px;}
+article .l-tags{text-align: center;font-size: 12px; font-family: 'Futura', ;text-transform: uppercase;letter-spacing: .9px;}
 article .l-tags a{color: #333;}
 article .l-tags a:hover{color: #628d7c;}
 
@@ -171,7 +180,7 @@ article.single-post .entry-header{padding: 40px 0;}
 article.single-post .entry-header h2.entry-title{font-family: 'Futura';font-size: 24px;font-weight: 400;line-height: 30px;color: #111;letter-spacing: 2px;margin: 0;text-transform: uppercase;}
 article.single-post .entry-header h2.entry-title a {color: #111;margin: 0;}
 article .entry-title-blog a:hover {color: #628d7c;}
-article .entry-header .time {font-family: "Merriweather",Georgia,serif;color: #888;font-size: 17px;padding-bottom: 10px;display: block;}
+article .entry-header .time {font-family: "Futura";color: #888;font-size: 17px;padding-bottom: 10px;display: block;}
 article .entry-header .cat-links {font-size: 15px;font-weight: 400;text-transform: uppercase;letter-spacing: 2px;padding-top: 10px;display: block;}
 
 
